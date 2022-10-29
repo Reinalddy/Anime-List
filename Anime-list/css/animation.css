@@ -1,0 +1,11 @@
+@keyframes updown {
+    0%{
+        bottom: -195px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+       bottom: 0px;
+    }
+    
+}
