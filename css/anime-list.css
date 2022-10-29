@@ -100,11 +100,13 @@ body{
     position:fixed;
     right:-400px;
     bottom: -40px;
+    z-index: -1;
 }
 .sidebgleft{
     position: fixed;
     left: -410px;
     bottom: -40px;
+    z-index: -1;
 }
 
 .anime-list{
@@ -117,6 +119,7 @@ body{
     background-color: wheat;
     border-radius: 5px;
     margin-bottom: -95px;
+    
 }
 .list-menu{
     position: absolute;
