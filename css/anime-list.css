@@ -1,0 +1,166 @@
+body{
+    background-image: url(../bg/beach.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-main{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: -20px;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: black;
+    left: 0;
+    border-radius: 10px;
+    top: 40px;
+    
+    
+}
+.nav .nav-menu  {
+    right: 20px;
+    
+}
+.nav .nav-menu li {
+    display: inline-block;
+    padding-top: 12px;
+    margin-left: 110px;
+    
+    
+}
+.nav .nav-menu li:hover{
+    text-decoration: underline;
+}
+.nav .nav-menu li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 18px;
+    
+    
+    
+}
+.dropdown{
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+    display: inline-block;
+    width: 100px;
+    margin-left: 20px;
+    
+}
+
+.dropdown-child{
+    position: absolute;
+    display: none;
+    background-color: black;
+    min-width: 0px;
+    z-index: 999999;
+    
+    
+}
+
+.dropdown-child a{
+    color: wheat;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    font-size:15px;
+    
+    
+}
+
+.dropdown:hover .dropdown-child{
+    display: block;
+}
+
+.dropdown-child a:hover{
+    text-decoration: underline;
+}
+
+.mainmenubtn{
+    font-size: 16px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 17px;
+    width: 80px;
+    
+    
+    
+}
+.mainmenubtn:hover{
+    text-decoration: underline;
+}
+.sidebgright{
+    position:fixed;
+    right:-400px;
+    bottom: -40px;
+}
+.sidebgleft{
+    position: fixed;
+    left: -410px;
+    bottom: -40px;
+}
+
+.anime-list{
+    position: relative;
+    top: 5px;
+    margin: auto;
+    width: 1000px;
+    height: 50px;
+    margin-top: 35px;
+    background-color: wheat;
+    border-radius: 5px;
+    margin-bottom: -95px;
+}
+.list-menu{
+    position: absolute;
+    top: -15px;
+    left: 30px;
+}
+.list-menu li{
+    display: inline-block;
+    padding: 1px;
+    
+}
+.list-menu li a{
+    text-decoration: none;
+    padding: 7px;
+    border: 1px solid white;
+    color: white;
+    line-height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+.list-menu li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.container{
+    width: 1000px;
+    background-color: #faf5f5;
+    margin: 50px auto;
+
+}
+.list h3{
+    font-size: 100px;
+    
+}
+.list ul{
+    margin-top: -50px;
+}
+.list a{
+    text-decoration: none;
+    line-height: 20px;
+    color: black;
+    
+}
+.list a:hover{
+    text-decoration: underline;
+}
